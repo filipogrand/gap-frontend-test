@@ -1,0 +1,27 @@
+<main class="container mw-100 p-3 mt-3">
+  <section class="car-detail mt-3 w-100" *ngIf="compareCars">
+
+    <article class="car-compare p-5" *ngFor="let car of compareCars">
+      <article class="image-content">
+        <img [src]="imagePath + car['picture']" class="w-100" alt="car['picture']">
+      </article>
+      <div class="car-price">{{ car['price'] }}</div>
+      <div class="car-description">
+        <span class="font-weight-bold">{{ car['make'] }}</span><br />
+        {{ car['model'] }} - {{ car['year'] }}
+      </div>
+    </article>
+    
+    <section class="car-details-description w-100">
+      <div class="car-specs mb-4" *ngFor="let detail of detailsComparation">
+        <strong class="text-center">{{ detail.label }}</strong>
+        <div class="car-specs-compared text-center">
+          <div *ngFor="let spec of detail.values" class="spec-card p-1">
+            <span>{{spec}}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+</main>

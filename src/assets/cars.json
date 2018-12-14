@@ -1,0 +1,137 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "picture": "01-audi-a4.jpg",
+      "model": "A4",
+      "year": 2006,
+      "make": "Audi",
+      "price": "$26.900.000",
+      "details": [
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "87092" },
+        { "id": 4, "label": "car id", "value": "XXX XX1" },
+        { "id": 5, "label": "steering", "value": "Hydraulic" },
+        { "id": 6, "label": "engine", "value": "1800" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 1, "label": "color", "value": "Black" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    },
+    {
+      "id": 2,
+      "picture": "02-bmw-323i.jpg",
+      "model": "323I",
+      "year": 1998,
+      "make": "BMW",
+      "price": "$28.000.000",
+      "details": [
+        {"id": 1, "label": "color", "value": "Blue" },
+        {"id": 2, "label": "fuel", "value": "Gasoline" },
+        {"id": 3, "label": "route", "value": "88000" },
+        {"id": 4, "label": "car id", "value": "BKL482" },
+        {"id": 5, "label": "steering", "value": "Hydraulic" },
+        {"id": 6, "label": "engine", "value": "2500" },
+        {"id": 7, "label": "negotiable", "value": "Yes" },
+        {"id": 8, "label": "engine repaired", "value": "No" },
+        {"id": 9, "label": "transmition", "value": "Mecanic" }
+      ]
+    },
+    {
+      "id": 3,
+      "picture": "03-mini-cooper-s.jpg",
+      "model": "Cooper S",
+      "year": 2017,
+      "make": "Mini",
+      "price": "$112.000.000",
+      "details": [
+        { "id": 1, "label": "color", "value": "Blue" },
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "4000" },
+        { "id": 4, "label": "car id", "value": "IYU936" },
+        { "id": 5, "label": "steering", "value": "Hydraulic" },
+        { "id": 6, "label": "engine", "value": "2100 T" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    },
+    {
+      "id": 4,
+      "picture": "04-jeep-rubicon.jpg",
+      "model": "Rubicon",
+      "year": 2008,
+      "make": "Jeep",
+      "price": "$81.900.000",
+      "details": [
+        { "id": 1, "label": "color", "value": "Blue" },
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "4000" },
+        { "id": 4, "label": "car id", "value": "IYU936" },
+        { "id": 5, "label": "steering", "value": "Hydraulic" },
+        { "id": 6, "label": "engine", "value": "2100 T" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    },
+    {
+      "id": 5,
+      "picture": "05-mercedes-clase-a.jpg",
+      "model": "Clase A",
+      "year": 2017,
+      "make": "Mercedes Benz",
+      "price": "$90.000.000",
+      "details": [
+        { "id": 1, "label": "color", "value": "Green" },
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "109000" },
+        { "id": 4, "label": "car id", "value": "DDB937" },
+        { "id": 5, "label": "steering", "value": "Hydraulic" },
+        { "id": 6, "label": "engine", "value": "3800" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    },
+    {
+      "id": 6,
+      "picture": "06-audi-a4.jpg",
+      "model": "A4",
+      "year": 2018,
+      "make": "Audi",
+      "price": "$98.900.000",
+      "details": [
+        { "id": 1, "label": "color", "value": "White" },
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "13000" },
+        { "id": 4, "label": "car id", "value": "FHO810" },
+        { "id": 5, "label": "steering", "value": "N/A" },
+        { "id": 6, "label": "engine", "value": "N/A" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    },
+    {
+      "id": 7,
+      "picture": "07-jeep-cherokee.jpg",
+      "model": "Cherokee",
+      "year": 2006,
+      "make": "Jeep",
+      "price": "$22.900.000",
+      "details": [
+        { "id": 1, "label": "color", "value": "Silver" },
+        { "id": 2, "label": "fuel", "value": "Gasoline" },
+        { "id": 3, "label": "route", "value": "140000" },
+        { "id": 4, "label": "car id", "value": "BNV118" },
+        { "id": 5, "label": "steering", "value": "Hydraulic" },
+        { "id": 6, "label": "engine", "value": "3700" },
+        { "id": 7, "label": "negotiable", "value": "Yes" },
+        { "id": 8, "label": "engine repaired", "value": "No" },
+        { "id": 9, "label": "transmition", "value": "Automatic" }
+      ]
+    }
+  ]
+}
